@@ -152,7 +152,6 @@ li {
   color: #888888;
 }
 
-
 /* Edit mode */
 .li__input_text {
   display: none;
@@ -169,7 +168,6 @@ li {
 
 /* TODO */
 
-/* fix colors */
 /* delete useless classes */
 /* check for dots, commas etc */
 /* check BEM */
