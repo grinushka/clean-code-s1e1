@@ -9,7 +9,7 @@ html {
 /*  */
 body {
   background-color: #f8f8f8;
-  color: #333;
+  color: #333333;
   font-family: Lato, sans-serif;
 }
 
@@ -60,21 +60,21 @@ body {
 button {
   background: none;
   border: none;
-  color: #888;
+  color: #888888;
   font-size: 15px;
   width: 60px;
   cursor: pointer;
 }
 
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 
 /* Headings */
 .main__header,
 .new-task__label {
-  color: #333;
+  color: #333333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -93,11 +93,11 @@ button:hover {
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
+  color: #888888;
 }
 
 .input_text:focus {
-  color: #333;
+  color: #333333;
 }
 
 /* New Task */
@@ -115,7 +115,7 @@ button:hover {
 li {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,7 +149,7 @@ li {
 /* Completed */
 .completed-tasks label {
   text-decoration: line-through;
-  color: #888;
+  color: #888888;
 }
 
 
