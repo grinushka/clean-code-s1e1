@@ -6,7 +6,6 @@ html {
   font-family: Lato, sans-serif;
 }
 
-/*  */
 body {
   background-color: #f8f8f8;
   color: #333333;
@@ -29,9 +28,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .matrix {
     text-align: center;
   }
+
 }
 
 .main {
@@ -40,13 +41,12 @@ body {
   margin: 0 auto 0;
 }
 
-/* input wrapper */
 .new-task__row {
   display: flex;
 }
 
 /* Input and label*/
-.task { 
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -69,7 +69,6 @@ button {
 button:hover {
   color: #3a3a3a;
 }
-
 
 /* Headings */
 .main__header,
@@ -100,7 +99,6 @@ button:hover {
   color: #333333;
 }
 
-/* New Task */
 .new-task__label {
   display: block;
   margin: 0 0 20px;
@@ -109,7 +107,6 @@ button:hover {
 .new-task__input {
   width: 318px;
 }
-
 
 /* Task list */
 li {
@@ -135,7 +132,6 @@ li {
   width: 226px;
 }
 
-/* Delete btn */
 .delete-btn__img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -158,16 +154,11 @@ li {
 }
 
 .edit-mode input {
-  display:inline-block;
+  display: inline-block;
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
 
-
 /* TODO */
-
-/* delete useless classes */
-/* check for dots, commas etc */
-/* check BEM */
